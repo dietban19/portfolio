@@ -88,7 +88,7 @@ p {
   margin: var(--size-400);
   padding: var(--size-500) var(--size-500) 0 var(--size-500);
   border-radius: 40px;
-  /* width: 21.5rem; */
+  width: 21.5rem;
   height: 22.5rem;
   text-align: left;
 }
