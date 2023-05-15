@@ -59,8 +59,12 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  display: grid;
-  place-content: center;
+  /* display: grid;
+  place-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: var(--clr-neutral-900);
 }
 

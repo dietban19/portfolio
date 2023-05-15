@@ -1,11 +1,12 @@
 .container {
-  /* outline: 1px solid red; */
   background-color: var(--clr-neutral-800);
+
+  outline: 1px solid red;
   margin: var(--size-400);
   padding: var(--size-400);
   border-radius: 40px;
-  width: 21.5rem;
-  height: 24.5rem;
+  /* width: 21.5rem;
+  height: 24.5rem; */
   text-align: left;
 }
 .star {
@@ -125,6 +126,7 @@ p {
 
 @media (min-width: 376px) {
   .container {
+    background-color: blue;
     width: 23rem;
     height: 22.75rem;
   }
